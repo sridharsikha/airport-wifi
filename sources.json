@@ -1,0 +1,174 @@
+{
+  "reviewed": "2026-09-27",
+  "method": "Published-source review, not live network testing. Visual journeys are original diagrams. Not listed does not mean not required.",
+  "airports": [
+    {
+      "code": "DEL",
+      "name": "Delhi",
+      "country": "India",
+      "kind": "otp",
+      "label": "Phone OTP / passport fallback",
+      "network": "GMR FREE WIFI",
+      "steps": [
+        "Join network",
+        "Indian mobile number",
+        "Enter SMS code"
+      ],
+      "fallback": [
+        "Find desk or kiosk",
+        "Present / scan passport",
+        "Get coupon",
+        "Enter KYC ID + coupon"
+      ],
+      "summary": "The standard route requires an active Indian mobile number. Without one, the airport directs passengers to an information desk or self-service kiosk.",
+      "note": "The published fallback specifies a passport. It does not list a boarding pass. KYC means “know your customer”; the page does not explain how the KYC ID is issued.",
+      "evidence": "Official · current service page",
+      "source": "https://www.newdelhiairport.in/wifi/",
+      "sourceTitle": "Delhi Airport · Wi-Fi instructions",
+      "reg": "Mobile number",
+      "otp": "Required on phone route",
+      "document": "Passport fallback",
+      "boarding": "Not listed"
+    },
+    {
+      "code": "HYD",
+      "name": "Hyderabad",
+      "country": "India",
+      "kind": "otp",
+      "label": "Phone OTP / passport fallback",
+      "network": "Hyderabad Airport-Free-WiFi",
+      "steps": [
+        "Join network",
+        "Country code + mobile",
+        "Accept terms",
+        "Enter SMS code"
+      ],
+      "fallback": [
+        "Find kiosk / display",
+        "Scan passport",
+        "Use coupon"
+      ],
+      "summary": "The phone route includes a country-code selector and SMS verification. Passport-scan coupons are also available at listed kiosks and virtual information displays.",
+      "note": "A country-code selector is not a guarantee of SMS delivery to every overseas number. The source does not say “Indian numbers only” and does not list a boarding pass for Wi-Fi.",
+      "evidence": "Official · current service page",
+      "source": "https://www.hyderabad.aero/rgia/airport-facilities/wi-fi",
+      "sourceTitle": "Hyderabad Airport · Free Wi-Fi",
+      "reg": "Country code + mobile",
+      "otp": "Required on phone route",
+      "document": "Passport fallback",
+      "boarding": "Not listed"
+    },
+    {
+      "code": "SIN",
+      "name": "Singapore Changi",
+      "country": "Singapore",
+      "kind": "simple",
+      "label": "Click to connect",
+      "network": "#WiFi@Changi",
+      "steps": [
+        "Join network",
+        "Open browser",
+        "Click Wi-Fi logo"
+      ],
+      "summary": "Changi explicitly says no account, email address or phone number is needed for its complimentary service.",
+      "note": "This is the current published journey. Historical OTP or passport-kiosk images would not represent these instructions.",
+      "evidence": "Official · current service page",
+      "source": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory/internet-connection.html",
+      "sourceTitle": "Changi Airport · Internet connection",
+      "reg": "Not required",
+      "otp": "Not required",
+      "document": "Not required",
+      "boarding": "Not required"
+    },
+    {
+      "code": "SFO",
+      "name": "San Francisco",
+      "country": "United States",
+      "kind": "simple",
+      "label": "Connect / terms by use",
+      "network": "#SFO FREE WIFI",
+      "steps": [
+        "Join network",
+        "Open browser",
+        "Terms accepted by use"
+      ],
+      "summary": "SFO tells passengers to select the network and launch a browser. Using the service constitutes acceptance of its terms.",
+      "note": "Registration, SMS verification and document checks are not listed in this published journey. That is narrower than a guarantee about every live portal screen.",
+      "evidence": "Official · current service page",
+      "source": "https://www.flysfo.com/passengers/services-amenities/wi-fi",
+      "sourceTitle": "SFO · Free WiFi",
+      "reg": "Not listed",
+      "otp": "Not listed",
+      "document": "Not listed",
+      "boarding": "Not listed"
+    },
+    {
+      "code": "LHR",
+      "name": "London Heathrow",
+      "country": "United Kingdom",
+      "kind": "registration",
+      "label": "Registration required",
+      "network": "Heathrow Wi-Fi",
+      "steps": [
+        "Join network",
+        "Follow screen prompts",
+        "Register"
+      ],
+      "summary": "Heathrow explicitly instructs passengers to register before using its free terminal Wi-Fi.",
+      "note": "The service page does not specify the required registration fields or say whether an SMS code is needed. Its internet kiosks are shared access devices, not a documented passport-verification workaround.",
+      "evidence": "Official · current service page",
+      "source": "https://www.heathrow.com/at-the-airport/airport-services/internet-and-wifi",
+      "sourceTitle": "Heathrow · Internet and Wi-Fi",
+      "reg": "Required; fields unspecified",
+      "otp": "Not specified",
+      "document": "Not listed",
+      "boarding": "Not listed"
+    },
+    {
+      "code": "DXB",
+      "name": "Dubai International",
+      "country": "United Arab Emirates",
+      "kind": "qualified",
+      "label": "One click · older official evidence",
+      "network": null,
+      "steps": [
+        "Join airport Wi-Fi",
+        "Click to connect"
+      ],
+      "summary": "Dubai Airports described a one-click landing page in its 14 March 2017 announcement. A current Dubai government page still confirms free airport Wi-Fi.",
+      "note": "The precise current onboarding screens were not independently verified. Keep the one-click claim dated; do not treat the 2017 release as a fresh portal test.",
+      "evidence": "Official · historical onboarding detail",
+      "source": "https://media.dubaiairports.ae/dxb-wows-passengers-with-the-worlds-fastest-airport-wi-fi/",
+      "sourceTitle": "Dubai Airports · 14 March 2017 announcement",
+      "extra": "https://www.dubai.ae/visit/arriving-to-dubai/free-wi-fi-access",
+      "extraTitle": "Dubai government · Free Wi-Fi access",
+      "reg": "Not listed in 2017 flow",
+      "otp": "Not listed in 2017 flow",
+      "document": "Not listed in 2017 flow",
+      "boarding": "Not listed"
+    },
+    {
+      "code": "TLV",
+      "name": "Ben Gurion",
+      "country": "Israel",
+      "kind": "unknown",
+      "label": "No registration reported · unverified",
+      "network": null,
+      "steps": [
+        "Connect to Wi-Fi",
+        "Browse (reported)"
+      ],
+      "summary": "An unofficial airport guide dated 28 September 2024 reports basic access without registration or personal details. This could not be confirmed in current official onboarding instructions.",
+      "note": "The Israel Airports Authority’s July 2026 maintenance notice confirms a Wi-Fi service, but does not establish its sign-in requirements. TLV is not counted as a verified low-friction example.",
+      "evidence": "Third-party onboarding claim · official gap",
+      "source": "https://bengurion.co.il/en/blog/shopping-wifi",
+      "sourceTitle": "Unofficial Ben Gurion guide · 28 September 2024",
+      "extra": "https://www.iaa.gov.il/airports/ben-gurion/notifications-and-updates/",
+      "extraTitle": "Israel Airports Authority · notices (Hebrew)",
+      "reg": "Reported unnecessary; unverified",
+      "otp": "Not officially verified",
+      "document": "Not officially verified",
+      "boarding": "Not officially verified"
+    }
+  ]
+}
